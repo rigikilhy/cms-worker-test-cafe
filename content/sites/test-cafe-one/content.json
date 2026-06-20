@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-20T14:11:23.758Z",
+  "updatedAt": "2026-06-20T14:22:26.277Z",
   "site": {
     "name": {
       "it": "Test Cafe One",
       "en": "Test Cafe One"
     },
     "tagline": {
-      "it": "Salvataggio test Worker alle 2026-06-20T14:11:23.758Z: worker-path-test",
-      "en": "Worker test save at 2026-06-20T14:11:23.758Z: worker-path-test"
+      "it": "Salvataggio test Worker alle 2026-06-20T14:22:26.277Z: cloudflare-pages-test",
+      "en": "Worker test save at 2026-06-20T14:22:26.277Z: cloudflare-pages-test"
     },
     "description": {
       "it": "Un sito minimo per provare il deploy condiviso.",
