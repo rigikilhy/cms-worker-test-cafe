@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-20T00:00:00.000Z",
+  "site": {
+    "name": {
+      "it": "Test Cafe One",
+      "en": "Test Cafe One"
+    },
+    "tagline": {
+      "it": "Pane caldo, menu finto e prove veloci.",
+      "en": "Warm bread, fake menu, quick tests."
+    },
+    "description": {
+      "it": "Un sito minimo per provare il deploy condiviso.",
+      "en": "A tiny site for testing the shared deploy worker."
+    },
+    "phone": "+39 011 000 0001",
+    "email": "cafe-one@example.test",
+    "address": "Via Test 1, Torino"
+  },
+  "openingHours": [
+    {
+      "dayKey": "monday",
+      "lunchOpen": "12:00",
+      "lunchClose": "15:00",
+      "dinnerOpen": "19:00",
+      "dinnerClose": "22:00",
+      "closed": false,
+      "sortOrder": 1
+    },
+    {
+      "dayKey": "tuesday",
+      "closed": true,
+      "sortOrder": 2,
+      "note": {
+        "it": "Chiuso per test.",
+        "en": "Closed for testing."
+      }
+    }
+  ],
+  "menuCategories": [
+    {
+      "id": "small-plates",
+      "title": {
+        "it": "Piatti Piccoli",
+        "en": "Small Plates"
+      },
+      "description": {
+        "it": "Testi casuali e prezzi finti.",
+        "en": "Random text and fake prices."
+      },
+      "sortOrder": 1,
+      "items": [
+        {
+          "id": "toast-alpha",
+          "name": {
+            "it": "Toast Alfa",
+            "en": "Alpha Toast"
+          },
+          "description": {
+            "it": "Pane croccante con pomodoro inventato.",
+            "en": "Crunchy bread with imaginary tomato."
+          },
+          "price": "6.50",
+          "available": true,
+          "sortOrder": 1
+        },
+        {
+          "id": "soup-beta",
+          "name": {
+            "it": "Zuppa Beta",
+            "en": "Beta Soup"
+          },
+          "description": {
+            "it": "Brodo leggero con righe di prova.",
+            "en": "Light broth with test copy."
+          },
+          "price": "8.00",
+          "available": true,
+          "sortOrder": 2
+        }
+      ]
+    }
+  ]
+}
